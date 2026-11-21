@@ -7,3 +7,6 @@ bot/.token
 .webhook_secret
 .wrangler/
 bot/.wrangler/
+
+# Claves del bot (cifradas, nunca a GitHub)
+claves/
