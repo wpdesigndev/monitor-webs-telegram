@@ -15,7 +15,7 @@
  * Cron trigger: "* * * * *"
  */
 
-const UA = 'Mozilla/5.0 (compatible; MonitorWebsBot/1.0; +https://github.com/wpdesigndev/monitor-webs)';
+const UA = 'Mozilla/5.0 (compatible; MonitorWebsBot/1.0; +https://github.com/wpdesigndev/monitor-webs-telegram)';
 const TZ = 'America/Havana';
 const SLOTS = 5;          // cada web se comprueba una vez cada SLOTS minutos
 const BUTTONS = ['📋 Mis webs', '➕ Añadir web', '🔄 Comprobar ahora'];
@@ -227,7 +227,7 @@ async function help(env, chat, welcome) {
     '• <b>Comprobar ahora:</b> 🔄 Comprobar ahora (o /comprobar)\n\n' +
     `Las compruebo cada 5 minutos. Si una no responde en 3 intentos seguidos, te aviso 🔴, y cuando vuelve, ✅ con el tiempo que estuvo caída. Solo tú ves tus webs. Máximo ${max} webs.
 
-<a href="https://wpdesigndev.github.io/monitor-webs/privacidad.html">Privacidad</a>`,
+<a href="https://wpdesigndev.github.io/monitor-webs-telegram/privacidad.html">Privacidad</a>`,
     mainKeyboard());
 }
 

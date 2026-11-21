@@ -9,7 +9,7 @@ Bot de Telegram que vigila tus webs y te avisa cuando se caen y cuando vuelven: 
 - Los datos (quién vigila qué) van en una base privada de Cloudflare D1, nunca en este repositorio.
 
 Cómo usarlo: [`COMO-AÑADIR-UNA-WEB.md`](COMO-A%C3%91ADIR-UNA-WEB.md) · Cómo instalar tu propio bot: [`bot/README.md`](bot/README.md) ·
-Privacidad: https://wpdesigndev.github.io/monitor-webs/privacidad.html
+Privacidad: https://wpdesigndev.github.io/monitor-webs-telegram/privacidad.html
 
 ## Archivos
 
